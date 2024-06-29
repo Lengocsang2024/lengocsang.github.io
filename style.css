@@ -1,0 +1,104 @@
+h1, h2, h3, h4, p, li {
+    font-family: sans-serif;
+}
+
+h1, h2, h3 {
+    color: #1d89d6;
+}
+
+h1 {
+    font-size: 26px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p {
+    font-size: 22px;
+    line-height: 1.5;
+
+}
+
+li {
+    font-size: 20px;
+
+}
+
+footer p {
+    font-size: 16px;
+}
+
+/*article header p {
+    font-style: italic;
+}*/
+
+#author {
+    font-style: italic;
+}
+
+#copyright {
+    font-size: 16px;
+}
+
+.related-author {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* ul { 
+    list-style: none;
+}*/
+
+.related {
+    list-style: none;
+}
+
+.main-header {
+    background-color: #0200040a
+}
+
+.related-post {
+    background-color:rgba(0, 0, 11, 0.11);
+    border-top: 5px solid #0d8de3d3;
+    border-bottom: 5px solid #0d8de3d3;
+}
+
+/* .first-li { 
+    font-weight: bold;
+}*/
+
+li:first-child {
+    font-weight: bold;
+}
+
+li:last-child {
+    font-style: italic;
+}
+
+li:nth-child(odd) {
+    color: #de0d0df7; 
+}
+
+/* misconception: this wont work */
+article p:first-child {
+    color: #d21414;
+}
+
+/* styling links */
+
+a {
+    color: #10b0d0
+}
